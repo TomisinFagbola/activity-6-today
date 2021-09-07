@@ -1,0 +1,350 @@
+*::before, *::after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "open sans", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+.row{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+
+}
+.row-100{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    
+}
+.row-100 .text-input{
+     height: 30px;
+     border-radius: 20px;
+     width: 180px;
+}
+.row-column-100{
+    display: flex;
+    flex-direction: column;
+}
+
+.row-column{
+    flex-direction: column;
+    justify-content: center;
+    height: 60%;
+}
+.custom-font{
+    font-family: 'playfair display', serif;
+}
+
+header{
+    width: 100%; 
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: flex-end;
+    color: white;
+    padding: 60px;
+    background-image: url(../images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .banner{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.row .banner-heading{
+    font-family: 'playfair display', serif;
+    font-size: 6rem;
+    font-style: italic;
+    padding: 0 1.6rem;
+}
+
+.row .banner-text{
+    font-size: 20px;
+    font-weight: normal;
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    padding: 20px;
+
+   
+}
+.annon-section{
+   display: flex;
+   justify-content: center;
+   background-color: #d9b1b3;
+   color: white;
+   height: 500%;
+   padding: 40px 200px 60px 200px;
+}
+.annon {
+    line-height: 240%;
+    font-size: 15px;
+    font-style: italic;
+    
+}
+.annon span{
+    font-size: 6rem;
+    line-height: 0;
+}
+.annon-section p {
+    width: 50%;
+    font-size: 0.8rem;
+}
+
+.gallery .img-container{
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.gallery .gallery-img-1{
+    background-image: url(../images/gallery-1.jpeg);
+}
+.gallery .gallery-img-2{
+   background-image: url(../images/gallery-2.jpeg);
+}
+
+.gallery .gallery-img-3{
+   background-image: url(../images/gallery-3.jpeg);
+}
+.gallery .gallery-img-4{
+    background-image: url(../images/gallery-4.jpeg);
+}
+.gallery .gallery-img-5{
+   background-image: url(../images/gallery-5.jpeg);
+}
+
+.gallery .gallery-img-6{
+   background-image: url(../images/gallery-6.jpeg);
+}
+.coming-soon{
+    background-color: #d9b1b3;
+    padding: 0 0 60px 0;
+    justify-content: center;
+    color: white;
+    margin: auto;
+}
+.coming-soon-form{
+    justify-content: center;
+}
+.coming-soon .row-column-100{
+    justify-content: center;
+}
+.coming-soon .coming-soon-heading,
+.coming-soon .coming-soon-text,
+.coming-soon .coming-soon-heading{
+    text-align: center;
+}
+.coming-soon .coming-soon-heading{
+    font-size: 4rem;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.input-container .form-btn{
+    width: 120px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    height: 40px;
+
+}
+.coming-soon .coming-soon-text{
+    font-size: 1.3rem;
+}
+.coming-soon .coming-soon-form{
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+}
+.img-about{
+    display: flex;
+    width: 100%;
+    height: 120vh;
+    margin-bottom: 70px;
+}
+.img-about .img-lady{
+    width: 45%;
+    background-image: url(../images/article-img.jpeg);
+    padding: 0 0 0 100px;
+    margin-top: 50px ;
+    background-size: 100%;
+    margin-left: 100px;
+    
+
+}
+.img-about .about{
+    margin-top: 250px;
+    padding: 50px;
+    justify-content: center;
+    width: 55%
+}
+.bag-shoe{
+    background-color: #d9b1b3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.bag-shoe .white h1{
+    color: white; 
+    font-style: italics;
+}
+.bag-shoe .bg-shoe-shoe{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+.bg-shoe-shoe .img2{
+    margin-left: 10px;
+}
+.bg-shoe-shoe .img2 img{
+    max-width: 100%;
+    height: 247px;
+    width: 250px;
+}
+.shoe{
+    background-color: white;
+    display: flex;
+}
+.shoe .imglo{
+    display: flex;
+}
+.imglo .img3{
+    display: flex;
+    margin-left: 40%;
+    margin-top: 40px;
+}
+.img3 .img3-1 img{
+    max-width: 100%;
+    height: 250px;
+    width: 300px;
+}
+.img3 .img3-1{
+    margin-left: 10px;
+}
+.shoe-note h3{
+   font-size: 20px;
+}
+.shoe-note{
+    margin-top: 20px;
+}
+.shoe-note .form-btn{
+    width: 200px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-size: 10px;
+}
+.text {
+    text-align: left;
+    padding: 30px;
+    width: 20%;
+}
+.money b{
+    font-size: 27px;
+}
+.sample-text p{
+    font-size: 15px;
+}
+.subscribe{
+    display: flex;
+}
+.subscribe-text{
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 12%;
+
+}
+.subscribe{
+    margin-left: 60px;
+    
+}
+.subscribe-image img{
+    width: 860px;
+    height: 850px;
+    
+}
+.subscribe-inbetween h1{
+    font-size: 60px;
+    font-style: italic;
+    justify-content: center;
+    font-family: 'playfair display', serif;
+    margin-top: 5px;
+   
+}
+.subscribe-inbetween{
+    width: 250%;
+    margin-left: 90%;
+   
+}
+.line{
+    width: 171%;
+   
+}
+.subscribe-text hr{
+    font-weight: 20px;
+    background-color: #d9b1b3;
+    height: 4px;
+    
+}
+.social-icon{
+    margin: auto;
+    margin: 30px 0;
+    width: 300%;
+    margin-left: 123%;
+}
+.social-icon .twitter{
+    padding: 0 10px;
+}
+.subscribe-form{
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32%;
+
+
+}
+.subscribe-form .text-input{
+    height: 30px;
+    width: 330px;
+}
+.form-btn1{
+    background-color: black;
+    color: white;
+    width: 17%;
+    margin-top: 25px;
+    height: 45px;
+    border-radius: 20px;
+}
+.input-container .text-input1{
+    margin-left: 5%;
+    height: 30px;
+    width: 330px;
+}
+.submit{
+   width: 300%;
+   justify-content: center;
+   margin-left: 120%;
+}
+.subscribe-text p {
+    width: 50%;
+    font-size: 1rem;
+    justify-content: center;
+    padding-left: 200px;
+}
